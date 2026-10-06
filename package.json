@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "axios": "^1.20.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongodb": "^7.7.0",
+    "nodemon": "^3.1.14",
+    "router": "^2.2.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  }
+}
