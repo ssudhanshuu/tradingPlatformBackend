@@ -1,6 +1,7 @@
 const axios = require("axios");
 
 const symbolPriceTicker = async (req, res) => {
+    console.log("ye hit hua ")
     try {
         const { symbol } = req.query;
 
@@ -19,6 +20,7 @@ const symbolPriceTicker = async (req, res) => {
                 }
             }
         )
+        // console.log(response.data)
         return res.status(200).json({
             success: true,
             data: response.data

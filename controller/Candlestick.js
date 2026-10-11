@@ -28,7 +28,7 @@ const Candlestick = async (req, res) => {
             close: Number(item[4]),
             volume: Number(item[5])
         }));
-
+        // console.log({ transformedData })
         return res.status(200).json({
             success: true,
             data: transformedData
